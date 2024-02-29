@@ -29,7 +29,7 @@
           logo.classList.add("loader__logo");
           const image = document.createElement("img");
           image.src = "images/tayaswap-logo-y-white.svg";
-          image.alt = "Xora";
+          image.alt = "tayaswap";
           const circle = document.createElement("div");
           circle.classList.add("loader__circle");
           logo.append(image);
@@ -48,7 +48,7 @@
     <div class="outer">
       <!-- header-->
       <header class="header">
-        <div class="container header__container"><a class="header__logo"><img width="100" height="50" src="/images/tayaswap-logo-y-white.svg" alt="Xora"></a>
+        <div class="container header__container"><a class="header__logo"><img width="100" height="50" src="/images/tayaswap-logo-y-white.svg" alt="tayaswap"></a>
           <div class="header__wrapper">
             <div class="header__inner">
               <nav class="header__nav">
@@ -131,7 +131,7 @@
                 <circle cx="10" cy="10" r="10" fill="white"/>
                 <circle cx="70" cy="130" r="10" fill="white"/>
                 <circle cx="70" cy="190" r="10" fill="white"/>
-                </svg></span><span class="button__title">Launch App</span></span><span class="button__glows">   </span></button>
+                </svg></span><span class="button__title toast" >Launch App</span></span><span class="button__glows">   </span></button>
           </div>
           <div class="hero__preview">
             <img src="/images/Shape-9.svg" alt="">
@@ -371,9 +371,9 @@
             <nav class="footer__nav">
               <ul>
                 <li><a href="https://docs.tayaswap.xyz/about-tayaswap/introduction" target="_blank">Introduction</a></li>
-                <li><a href="https://docs.tayaswap.xyz/about-tayaswap/features">Features</a></li>
-                <li><a href="https://docs.tayaswap.xyz/dapp-as-a-service/d-a-a-s">Dapp as a Service</a></li>
-                <li><a href="https://docs.tayaswap.xyz/further-information/links">Links</a></li>
+                <li><a href="https://docs.tayaswap.xyz/about-tayaswap/features"  target="_blank">Features</a></li>
+                <li><a href="https://docs.tayaswap.xyz/dapp-as-a-service/d-a-a-s" target="_blank">Dapp as a Service</a></li>
+                <li><a href="https://docs.tayaswap.xyz/further-information/links" target="_blank">Links</a></li>
               </ul>
             </nav>
             <div class="footer__bottom">
@@ -443,5 +443,6 @@
       };
     </script>
     <script src="https://substackapi.com/widget.js" async></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   </body>
 </html>

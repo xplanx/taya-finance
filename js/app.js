@@ -33,9 +33,8 @@
   fixedHeader();
 
   // go to section
-  const navLinks = document.querySelectorAll(".header__nav a, .footer__nav a");
+  const navLinks = document.querySelectorAll(".header__nav, .footer__nav");
   navLinks.forEach(link => link.addEventListener("click", e => {
-    e.preventDefault();
     document.querySelector(link.hash).scrollIntoView({
       block: "start"
     });
@@ -73,3 +72,15 @@
     });
   });
 })();
+
+toast.success('🦄 Wow so easy!', {
+  position: "top-center",
+  autoClose: 5000,
+  hideProgressBar: false,
+  closeOnClick: true,
+  pauseOnHover: true,
+  draggable: true,
+  progress: undefined,
+  theme: "dark",
+  transition: Bounce,
+  });
