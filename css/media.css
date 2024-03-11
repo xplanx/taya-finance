@@ -1,0 +1,134 @@
+body {
+	background-color: #080D27;
+}
+.btn-filled {
+		padding: 5px 16px !important;
+	border: none !important;
+	outline: none !important;
+	border-radius: 0px; 
+	color:#F9F9F9 !important;
+	background-color: #009293 !important;;
+}
+.gallery-col img{
+	width: 100%;
+}
+#hero-heading, #hero-desc {
+	position: relative;
+	z-index: 3;
+}
+.highlighted {
+	color: #6BE58B;
+}
+html * {
+	font-family: "Exo", sans-serif;
+}
+h1, h2, h3, h4, h5, h1 span, h2 span{
+	font-family: "Nunito Sans", sans-serif;
+}
+.bg-light {
+	background-color: #FBFBFB !important;
+}
+nav {
+	background-color: transparent;
+	width: 100%;
+	z-index: 100;
+	height: 42px;
+}
+.navbar-toggler {
+	border: none;
+	font-size: 200% !important;
+}
+#site-logo {
+	height: 22px;
+}
+.small-line {
+	 width: 70px;
+	 height: 3px;
+	 margin: 8px 0px;
+	 background-color:#00C968;
+}
+.box-shadow {
+	box-shadow: 0px 0px #888;
+}
+#hero-desc {
+	width: 50% !important;
+}
+.featurette-image, .rounded-container, .rounded-corners img {
+	border-radius: 18px !important;
+}
+.card-img-top {
+	border-top-left-radius: 18px !important;
+	border-top-right-radius: 18px !important;
+}
+.card-body {
+	border-bottom-left-radius: 18px !important;
+	border-bottom-right-radius: 18px !important;
+}
+.rounded-card {
+	border-radius: 18px !important;
+}
+.card-img {
+	border-radius: 9px !important;
+}
+.fill-card img {
+	border-top-left-radius: 18px !important;
+	border-top-right-radius: 18px !important;
+	border-bottom-left-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+	.bi-star, .bi-star-fill, .bi-star-half {
+	color: #FFAA00;
+	}
+.scrolled {
+    background-color: #202020 !important;
+}
+.scrolled a {
+	 	color: #EEEEEE !important; 
+}
+@media (max-width: 767px) {
+	nav {
+		min-height: 60px !important;
+    }
+	.navbar-collapse {
+		text-align: left;
+		background-color: #F7F7F7;
+		padding: 2%;
+		position: fixed;
+		top: 60px !important;
+		left: 0;
+		width: 100% !important;
+	}
+	#site-logo {
+		height: 41px;
+	}
+	.navbar-collapse li a {
+		color: #101010 !important;
+    }
+}
+footer {
+	background-color: #001531;
+}
+img {
+  opacity: 0;
+  position: relative;
+  left: -11px;
+}
+#name, #email, #subject, #message, #comment, .textbox-dark {
+	border-color: #191919 !important;
+	background-color: #303030 !important;
+	color: #DDDDDD !important;
+}
+.jumbotron {
+	padding-bottom: 72px !important;
+	border-radius: 0 !important;
+	overflow: hidden;
+	width: 100% !important;
+	background-color: #001531 !important;
+}
+.jumbotron p {
+	position: relative;
+	z-index: 20;
+}
+.text-light p {
+	color: #B7B7B7 !important;
+}
