@@ -39,17 +39,57 @@
         </li>
     </ol>
 
-    <!-- Features -->
-    <div class="max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <div
-            class="min-h-[35vh] md:min-h-[75vh] bg-[url('https://i.postimg.cc/dQdYYXtF/roadmap.png')] bg-center bg-cover bg-no-repeat relative rounded-xl">
+
+    <!-- component -->
+    <div class="max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto" data-dialog-target="image-dialog">
+        <img alt="nature" class="min-h-[27vh] md:min-h-[75vh] object-cover object-center rounded-xl"
+            src="/roadmap.png" />
+    </div>
+    <div data-dialog-backdrop="image-dialog" data-dialog-backdrop-close="true"
+        class="pointer-events-none fixed inset-0 z-[999] grid h-screen w-screen place-items-center bg-black bg-opacity-60 opacity-0 backdrop-blur-sm transition-opacity duration-300">
+        <div class="relative m-4 w-3/4 min-w-[75%] max-w-[75%] rounded-lg bg-white font-sans text-base font-light leading-relaxed text-blue-gray-500 antialiased shadow-2xl"
+            role="dialog" data-dialog="image-dialog">
             <div
-                class="absolute bottom-0 start-0 end-0 max-w-xs text-center mx-auto p-6 md:start-auto md:text-start md:mx-0">
+                class="flex shrink-0 items-center justify-between p-4 font-sans text-2xl font-semibold leading-snug text-blue-gray-900 antialiased">
+                <div class="flex items-center gap-3">
+
+                    <div class="-mt-px flex flex-col">
+                        <p class="block font-sans text-sm font-medium leading-normal text-blue-gray-900 antialiased">
+                            Taya Milestones
+                        </p>
+
+                    </div>
+                </div>
 
             </div>
+            <div
+                class="relative border-t border-b border-t-blue-gray-100 border-b-blue-gray-100 p-0 font-sans text-base font-light leading-relaxed text-blue-gray-500 antialiased">
+                <img alt="nature" class="h-[12rem] lg:h-[40rem] sm:h-[30rem] w-full object-cover object-center"
+                    src="/roadmap.png" />
+            </div>
+            <!-- <div class="flex shrink-0 flex-wrap items-center justify-between p-4 text-blue-gray-500">
+
+                <button
+                    class="flex select-none items-center gap-3 rounded-lg border border-blue-gray-500 py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-blue-gray-500 transition-all hover:opacity-75 focus:ring focus:ring-blue-gray-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                    type="button" data-ripple-dark="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
+                        class="h-4 w-4">
+                        <path fill-rule="evenodd"
+                            d="M15.75 4.5a3 3 0 11.825 2.066l-8.421 4.679a3.002 3.002 0 010 1.51l8.421 4.679a3 3 0 11-.729 1.31l-8.421-4.678a3 3 0 110-4.132l8.421-4.679a3 3 0 01-.096-.755z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    Share
+                </button>
+            </div> -->
         </div>
     </div>
-    <!-- End Features -->
+
+
+    <!-- from cdn -->
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/dialog.js"></script>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css" />
 
     <!-- Approach -->
     <div class="bg-neutral-900">
